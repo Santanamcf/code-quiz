@@ -1,4 +1,22 @@
 #start {
     display: flex;
     align-items: center;
+    background-color: cornflowerblue;
+}
+#main-header {
+    color:green;
+    background-color: black;
+    border: solid;
+}
+#a1 {
+    background-color: cornflowerblue;
+}
+#b2 {
+    background-color: cornflowerblue;
+}
+#c3 {
+    background-color: cornflowerblue;
+}
+#d4 {
+    background-color: cornflowerblue;
 }

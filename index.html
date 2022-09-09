@@ -6,23 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NBA Quiz</title>
     <link rel="stylesheet" href="style.css">
-    
 </head>
 <body>
-    <section class="main-header-box">
-        <h1 id="main-header">NBA Trivia</h1>
-    </section>
-    <h1 id="timer"></h1>
-    <button id="start">start</button> 
-    <section id="quiz-section-1"></section>
-       <button id="a1"></button>
-       <button id="b2"></button>
-       <button id="c3"></button>
-       <button id="d4"></button>
-     <button id="submit">Submit</button>
-    <div id="results"></div>
-
-    <script src="script.js"></script>   
-   <!-- <script src="script.js"></script> -->
+    <header>
+        <h1>NBA Trivia</h1>
+        <button id="startQuiz">Start!</button>
+    </header>
+    <main>
+        <section>
+            <h2 id="question">Press the start button at the top to play!</h2>
+                
+        </section>
+        <section>
+                <ul id="buttons">
+                    <li>
+                        <button id="a1">a</button>
+                    </li>
+                    <li>
+                        <button id="b2">b</button>
+                    </li>
+                    <li>
+                        <button id="c3">c</button>
+                    </li>
+                    <li>
+                        <button id="d4"></button>
+                    </li>
+                </ul>
+        </section>
+        <aside>
+            
+            <div id="timeCont">
+                <h2><span id="timeLeft">60</span> seconds left</h2>
+            </div>
+            <div id="scoreCont">
+                <h2>Score Box</h2>
+                <ul id="highScores"></ul>
+            </div>
+        </aside>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>

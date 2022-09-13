@@ -1,11 +1,11 @@
-#start {
+#startQuiz {
     display: flex;
     align-items: center;
-    background-color: cornflowerblue;
+    background-color: green;
 }
 #main-header {
     color:green;
-    background-color: black;
+    background-color: whitesmoke;
     border: solid;
 }
 #a1 {
@@ -19,4 +19,9 @@
 }
 #d4 {
     background-color: cornflowerblue;
+}
+
+#question {
+    background-color: green;
+    text-decoration: whitesmoke;
 }

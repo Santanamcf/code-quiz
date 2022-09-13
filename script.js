@@ -76,7 +76,7 @@ function setQuestion(currentIndex) {
 
 }
 
-function scanAnswer(currentIndex, userChoice) {
+function scanAnswer( userChoice) {
     answer = allQuestions[currentIndex].ans[answerKey[currentIndex]];
     console.log(answer)
     if (answer == userChoice) {
